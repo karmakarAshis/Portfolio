@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body styles */
+body {
+    font-family: "IBM Plex Mono", monospace;
+
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9C9C9C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.nav{
+    border-radius: 0px 0px 8px 8px;
+    background: #1B1B1B;
+    padding: 28px 0;
+    margin: 0 80px;
+}
+
+/* header styles */
+.header{
+    sa
+}
