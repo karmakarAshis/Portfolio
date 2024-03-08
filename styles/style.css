@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* body styles */
 body {
     font-family: "IBM Plex Mono", monospace;
@@ -28,10 +29,10 @@ nav a {
     text-decoration: none;
     color: #9C9C9C;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
 }
-.nav{
+
+.nav {
     border-radius: 0px 0px 8px 8px;
     background: #1B1B1B;
     padding: 28px 0;
@@ -39,6 +40,77 @@ nav a {
 }
 
 /* header styles */
-.header{
-    sa
+.header {
+    background-color: #080808;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 200px;
+}
+
+.decription {
+    color: #FFF;
+}
+
+.banner-greeting {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
+    color: #9C9C9C;
+}
+
+.banner-heading {
+    margin-bottom: 24px;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.banner-description {
+    margin-bottom: 36px;
+    width: 600px;
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+    padding: 20px 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    border-radius: 50%;
+}
+
+/* bottom-banner */
+.bottom-banner {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 50px 280px;
+}
+.bottom-container{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.com-container {
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #1B1B1B;
+    padding: 24px 36px;
 }
